@@ -2,7 +2,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -14,12 +14,8 @@ body{
 
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     height: 50%;
-
-
-
-
 
 }
 
@@ -28,12 +24,13 @@ h1{
     display: block;
     border-style: solid;
     border-color: grey;
-    width: 100%;
-    
-
+    width: 98.5%;
+    height: 37px;
 
 
 }
+
+
 
 .container{
 
@@ -64,3 +61,11 @@ h1{
 
 
 }
+
+.button:active {
+
+    background-color: darkgray;
+
+
+}
+
